@@ -2,7 +2,6 @@ package recordemo;
 
 public record Circle(double radius) {
 
-
     @Override
     public double radius() {
         if (radius < 0) {
