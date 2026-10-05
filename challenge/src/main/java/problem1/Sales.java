@@ -7,12 +7,14 @@ public class Sales
         final int SALESPEOPLE = 5;
         int[] sales = new int[SALESPEOPLE];
         int sum;
+
         Scanner scan = new Scanner(System.in);
         for (int i=0; i<sales.length; i++)
         {
             System.out.print("Enter sales for salesperson " + i + ": ");
             sales[i] = scan.nextInt();
         }
+
         System.out.println("\nSalesperson Sales");
         System.out.println("--------------------");
         sum = 0;
@@ -22,5 +24,10 @@ public class Sales
             sum += sales[i];
         }
         System.out.println("\nTotal sales: " + sum);
+        System.out.println("\nTotal sales: " + sum);
+        System.out.println("\nTotal sales: " + sum);
+        System.out.println("\nTotal sales: " + sum);
+        System.out.println("\nTotal sales: " + sum);
+        System.out.println("\nAverage sales: " + sum/sales.length);
     }
 }
