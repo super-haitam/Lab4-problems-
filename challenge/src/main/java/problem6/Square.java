@@ -1,4 +1,5 @@
 package problem6;
 
-public class Square {
+public class Square extends Forme {
+
 }
