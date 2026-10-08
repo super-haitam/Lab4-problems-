@@ -1,5 +1,6 @@
 package problem6;
 
-public class Forme {
+public interface Forme {
 
+    public double getSurface();
 }
